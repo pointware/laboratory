@@ -1,0 +1,10 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/repldb?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+server:
+  port: 8081
